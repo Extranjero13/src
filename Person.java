@@ -1,11 +1,12 @@
+import java.time.LocalDate;
 
 public class Person {
-
   private String firstName;
   private String middleName = "Christopher";
   public String lastName;
   public static Person kate=null;  
   public static double PI = 3.14;
+  protected LocalDate dob;
 
   public static int[] nums;
 
